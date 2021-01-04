@@ -1,0 +1,23 @@
+body{
+    margin: 0 auto;
+    font-family: 'Rubik', sans-serif;
+}
+header{
+    background-color: rgb(41, 41, 41);
+    height: 50px;
+}
+
+section{
+    height: 500px;
+}
+
+.upper-section{
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+.upper-section img{
+    width: 50%;
+    float: right;
+}
