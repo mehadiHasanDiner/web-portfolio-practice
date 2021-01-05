@@ -1,25 +1,56 @@
 body{
     margin: 0 auto;
     font-family: 'Rubik', sans-serif;
+    font-size: 20px;
 }
 header{
     background-color: rgb(41, 41, 41);
     height: 50px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
 }
 
+header h2{
+    max-width: 1200px;
+    color: white;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+h1{
+    font-size: 38px;
+    margin: 18px 0 -9px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+p{
+    color: dimgray;
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 15px;
+    line-height: 26px;
+}
 section{
     max-width: 1200px;
     height: 500px;
     margin: auto;
+    padding-top: 50px;
 }
 
 .upper-section{
     float: left;
-    margin-left: 5%;
-    padding-left: 2%;
+    width: 40%;
 
 }
+#position{
+    margin-top: 50px;
+}
 .upper-section img{
-    width: 100%;
+    width: 80%;
     float: right;
+    text-align: center;
 }
