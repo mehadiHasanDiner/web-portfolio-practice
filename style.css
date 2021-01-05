@@ -4,7 +4,7 @@ body{
     font-size: 20px;
 }
 header{
-    background-color: rgb(41, 41, 41);
+    background-color: tomato;
     height: 50px;
     overflow: hidden;
     position: fixed;
@@ -12,15 +12,16 @@ header{
 }
 
 header h2{
-    max-width: 1200px;
+    max-width: 1500px;
     color: white;
     margin: 0 auto;
     padding: 10px 0;
 }
 
 h1{
-    font-size: 38px;
+    font-size: 35px;
     margin: 18px 0 -9px;
+    color: tomato;
 }
 
 h2{
@@ -30,27 +31,39 @@ h2{
 p{
     color: dimgray;
     font-size: 20px;
-    text-align: justify;
-    padding-right: 15px;
-    line-height: 26px;
 }
 section{
-    max-width: 1200px;
     height: 500px;
     margin: auto;
     padding-top: 50px;
 }
 
+.conten-middle{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
 .upper-section{
-    float: left;
+
     width: 40%;
 
 }
-#position{
-    margin-top: 50px;
+
+.button-style{
+    background-image: linear-gradient(to right bottom, #ff8f44, #eb12a0);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 .upper-section img{
-    width: 80%;
+    width: 65%;
     float: right;
     text-align: center;
+    margin-top: 50px;
+}
+
+.middle-section{
+    background-color: rgb(243, 243, 243);
+    height: 100%;
 }
